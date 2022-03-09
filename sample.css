@@ -1,0 +1,763 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html{
+    font-size: 62.5%;
+}
+nav{
+    width: 100%;
+    width: auto;
+    background-color: #ffffff;
+    display: flex;   
+    align-items: center;
+}
+#navimg1{
+    margin-left: 7%;
+    height: 8rem;
+    width: 25rem;
+}
+/* ------SECTION 1 START------ */
+.section1{
+    width: 100%;
+    height: 65rem;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #1e487c;
+    position: absolute;
+    opacity: .9;
+    
+}    
+.sectionbody{
+    z-index: 1;
+}
+#flexForH1{
+    display: flex;
+    padding-top: 4rem;
+    font-size: 3.5rem;
+    color: #ffffff;
+    margin-left: 7%;
+    
+}
+.Sec1p1{
+    margin-left: 7%;
+    font-size: 4rem;
+    margin-top: 4rem;
+}
+.Sectin1bottomflex{
+    display: flex;
+    width: 100%;
+}
+.section1_imgdiv{
+    height: 22rem;
+    width: 22rem;
+    border: .6rem solid #02e4f8;
+    border-radius: 100rem;
+    overflow: hidden;
+    margin: 7% 0 0 30%;
+}
+.section1_img{
+    height: 23rem;
+    width: 23rem;
+    margin: -.5rem 0rem 0rem -.5rem;
+}
+.buttondiv{
+    height: 8rem;
+    width: 23rem;
+    z-index: 1;
+    background-color: #1e487c;
+    color: #02e4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    border: .1rem solid #ffffff;
+    border-radius: .3rem;
+}
+a{
+    text-decoration: none;
+}
+.buttondiv:hover{
+    background-color: #254e81;
+}
+.section1_group_img1{
+    height: 60rem;
+    width: 85rem;
+    margin-top: -15rem;
+}/* section 2 end  */
+
+
+/* ------SECTION 2 START------ */
+.section2{
+    width: 100%;
+    height: 80rem;
+    background-color: rgb(255, 255, 255);
+    
+}
+.AfterContentDIv{
+    padding-top: 6rem;
+}
+#afterContent{
+    display: block;
+    content: "";
+    background-color: #00efff;
+    width: 17rem;
+    height: .5rem;
+    margin: 0 auto;
+    
+}
+#Sec2H2{
+    font-size: 4.5rem;
+    color: #1a457a;
+    text-align: center;
+    margin-top: 2rem;
+}
+.div4_All_flex{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: auto;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+.SectionDIv4All_flex{
+    width: 25%;
+    height: 40rem;
+    background-color: #ffffff;
+    border: .2rem solid #00efff;
+    border-radius: .3rem;
+    margin: 2%;
+}
+.sec2IconCenter{
+    display: flex;
+    justify-content: center;
+}
+.sec2imgdiv{
+    border: .2rem solid #00efff;
+    border-radius: 100rem;
+    overflow: hidden;
+    height: 15rem;
+    width: 15rem;
+    margin-top: 2rem;
+}
+.sec2imges{
+    height: 16rem;
+    width: 16rem;
+    margin: -.5rem 0rem 0rem -.5rem;
+}
+.Sec2textDiv{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #1f4a7d;
+    font-weight: bold;
+    border-bottom: .2rem solid #00efff;
+    border-top: .2rem solid #00efff;
+    margin-top: 2rem;
+    background-color: #dcf6f8;
+}
+.Sec2textDIvFlexRow{
+    flex-direction: column;
+    height: 5rem;
+}
+.sec2Div4BottomTextDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #423557;
+}
+.secDivbottomtext{
+    margin-top: 1.5rem;
+}
+.Sec2button_bottomDiv{
+    height: 5rem;
+    width: 25rem;
+    background-color: #1f4a7d;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    border: .2rem solid #00efff;
+    border-radius: .5rem;
+    color: #ffffff;
+    margin-top: 3rem;
+}
+.Sec2button_bottomDiv:hover{
+    background-color: #143966;
+}
+
+
+/*---------------------*/
+.commentDivMAin{
+    background-color: #00efff;
+    width: 100%;
+    height: 15rem;
+    margin-top: 2rem;
+}
+.CommentdivMainFlex{
+    display: flex;
+    align-items: center;
+   
+}
+.ProfileIconDiv{
+    height: 10rem;
+    width: 10rem;
+    border: .2rem solid #1f4a7d;
+    border-radius: 100rem;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 2.5rem;
+}
+.ProfileIconImg{
+    height: 10rem;
+    width: 9.5rem;
+    margin: 0rem 0rem 0rem .7rem;
+}
+.Commentdiv{
+    width: 60%;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-family: Arial;
+    font-style: italic;
+    margin-left: 3%;
+}
+.nameDiv{
+    font-size: 2.7rem;
+    font-family: Arial;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 55%;
+    margin-top: -3rem;
+}
+
+
+/* ------SECTION 3 START------ */
+.Section3{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.afterContentDiv{
+    padding-top: 8rem;
+    margin-left: 5%;
+    line-height: 9rem;
+    
+}
+.afterContent2{
+    display: block;
+    content: "";
+    background-color: #00efff;
+    width: 17rem;
+    height: .5rem;
+    
+}
+
+.Section3Title{
+    font-size: 4.5rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #1f4a7d;
+}
+.Section3flexdivCenter{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.Section3flex4Div{
+    display: flex;
+    width: 95%;
+    background-color: #ffffff;
+}
+.Section3all4Div{
+    width: 25%;
+    height: 55rem;
+    border: .2rem solid #00efff;
+    border-radius: .3rem;
+    margin: 2%;
+    
+}
+.sec3toprightCorner{
+    height: 7rem;
+    width: 7rem;
+    background-color: #1f4a7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .2rem solid #00efff;
+    border-radius: 100rem;
+    margin-left: 86%;
+    margin-top: -3rem;
+}
+.checkRightimg{
+    height: 6rem;
+    width: 6rem;
+}
+.sec3iconimgDivCenter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -3rem;
+}
+.sec3iconimgDiv{
+    border: .2rem solid #00efff;
+    border-radius: 100rem;
+    overflow: hidden;
+    height: 13rem;
+    width: 13rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec34flexDivBottomTextDiv{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.5rem;
+    font-size: 1.4rem;
+}
+.sec3MiddelTitel{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #1f4a7d;
+    font-weight: bold;
+    border-bottom: .2rem solid #00efff;
+    border-top: .2rem solid #00efff;
+    margin-top: 2rem;
+    background-color: #dcf6f8;
+}
+.SEC3bottomdivCenter{
+    display: flex;
+    justify-content: center;
+
+}
+.SEC3bottomButtonDiv{
+    height: 5rem;
+    width: 25rem;
+    background-color: #1f4a7d;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    border: .2rem solid #00efff;
+    border-radius: .5rem;
+    color: #ffffff;
+    margin-top: 3rem;
+}
+.SEC3bottomButtonDiv:hover{
+    background-color: #143a68;
+}
+
+
+
+/*  Section 4 start  */
+
+.Section4{
+    width: 100%;
+    height: 98rem;
+    margin-top: 5rem;
+    background-image: url(./images/icon\ for\ header.jpg);
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+
+}
+.sec4Overlay{
+    width: 100%;
+    height: 98rem;
+    background-color: #143a68;
+    opacity: 95%;
+    position: absolute;
+}
+.sec4headDivMain{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    width: 75%;
+    height: 6rem;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+.Sec4HeaderDivlEFT{
+    background-color: #00efff;
+    border: .2rem solid #ffffff;
+    color: white;
+    font-size: 4.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sec4HeaderDivrRIGHT{
+    color: white;
+    font-size: 4.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4headerText2Div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 4rem;
+    font-size: 2.9rem;
+}
+.sec4flexDiv3center{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.sec4flexDiv3_Flex{
+    display: flex;
+    width: 90%;
+   
+}
+.sec4Flexdiv3MainDiv{
+    width: 25%;
+    height: 35rem;
+    margin: 5%;
+    border: .2rem solid #00efff;
+    border-radius: .5rem;
+}
+.sec4flexDIv1Header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4rem;
+    color: #ffffff;
+    line-height: 10rem;
+    margin-top: 5rem;
+
+}
+.sec4BOTTOM_BUTTON_DIV_FLEX_DIV3_CENTER{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.sec4BOTTOM_BUTTON_DIV_FLEX_DIV3_FLEX{
+    display: flex;
+    width: 90%;
+}
+.sec4BOTTOM_BUTTON_DIV_MAIN{
+    width: 25%;
+    height: 5rem;
+    margin: 5%;
+    border: .2rem solid #00efff;
+    background-color: #06c5d3;
+    border-radius: .5rem;
+    margin-top: -8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+.sec4BOTTOM_BUTTON_DIV_MAIN:hover{
+    background-color: #06aab6;
+}
+.sec4_BOTTOMDIVCENTERLAST{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.sec4BottomDivLast{
+    width: 25rem;
+    height: 5rem;
+    margin: 5%;
+    border: .2rem solid #00efff;
+    background-color: #143966;
+    border-radius: .5rem;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.sec4BottomDivLast:hover{
+    background-color: #0a3263;
+}
+/*      Section 5 start       */
+.section5{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.sec5FlexDiv{
+    width: 50%;
+    height: 50rem;
+    background-color: #ffffff;
+
+}
+.sec5FlexDiv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec5FlexDiv1_img{
+    border-bottom: .3rem solid #71f6ff;
+    height: 35rem;
+    width: 55rem;
+}
+.sec5FlexDiv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.7rem;
+    color: #5090dd;
+}
+.sec5FlexDiv2Text_Center{
+    width: 85%;
+    height: auto;
+}
+.sec5FlexDiv2H1_text{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+    color: #0a3263;
+}
+.section6{
+    width: 100%;
+    height: 60rem;
+    background-color: #0a3263;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iframe1{   
+    width: 90rem;
+    height: 50rem;
+}
+.section7{
+    width: 100%;
+    height: 80rem;
+    background-image: url(./images/icon\ for\ header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: re;
+    
+
+}
+.Section7Overlay{
+    width: 100%;
+    height: 80rem;
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 95%;
+}
+.sec7_2divFlex{
+    position: relative;
+    width: 100%;
+    height: 80rem;
+    display: flex;
+    align-items: center;
+
+}
+.sec7_flexdiv_2{
+    width: 100%;
+    height: 60rem;
+}
+.sec7_flexdiv_2_1stdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec7_flexDiv_imgDiv{
+    height: 51rem;
+    width: 51rem;
+    border: .2rem solid #00efff;
+    overflow: hidden;
+    border-radius: 100rem;
+    opacity: 99%;
+}
+.sec7_flexdiv_2_img{
+    height: 52rem;
+    width: 52rem;
+    margin: -.5rem 0rem 0rem -.5rem;
+}
+.sec7_afterContent{
+    content: "";
+    display: block;
+    background-color: #00efff;
+    height: .5rem;
+    width: 28rem;
+}
+.sec7_flexDiv_2ndFLexDiv_Text_H1{
+    font-size: 3rem;
+    line-height: 5rem;
+    font-weight: bold;
+}
+
+.sec7_flexDiv_Tex_Content{
+    width: 90%;
+
+}
+.sec7_flexdiv_2_2ndtdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec7flexDiv_2ndDiv_Button_div{
+    width: 100%;
+}
+.sec7flexDiv_2ndDiv_Button{
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #0a3263;
+    border: .2rem solid #00efff;
+    border-radius: .4rem;
+    color: #ffffff;
+    margin-top: 3rem;
+}
+.TEXt1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.TrustTextBolder{
+    color: #00efff;
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+.vvvvvv{
+    width: 70%;
+    font-size: 1.5rem;
+}
+.vvvvv1{
+    font-weight: bold;
+    margin: 3rem 0rem 3rem 0rem;
+}
+.vvvvv2{
+    font-size: 1.5rem;
+}
+.vvvvv2span2{
+    font-weight: bold;
+}
+.vvvvv3{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+.vvvv3span3{
+    font-weight: bold;
+}
+.section8{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec8Text{
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #143966;
+}
+.sec8button_div{
+    height: 6rem;
+    width: 20rem;
+    border: .2rem solid #0a3263;
+    border-radius: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    color: #0a3263;
+}
+.sec8button_div:hover{
+    background-color: #0a3263;
+    color: #ffffff;
+    border: .2rem solid #00efff;
+}
+
+
+
+
+
+
+
+/*  for tab*/
+@media screen and (max-width: 90rem) {
+    html{
+        font-size: 50%;
+    }
+}
+@media screen and (max-width: 70rem) {
+    html{
+        font-size: 40%;
+    }
+}
+@media screen and (max-width: 60rem) {
+    html{
+        font-size: 35%;
+    }
+}
+@media screen and (max-width: 55rem) {
+    html{
+        font-size: 30%;
+    }
+}
+@media screen and (max-width: 50rem) {
+    html{
+        font-size: 28%;
+    }
+}

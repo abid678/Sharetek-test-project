@@ -1,0 +1,344 @@
+/* for mobile */
+@media screen and (max-width: 40rem) {
+    html{
+        font-size: 30%;
+    }
+    nav{
+        height: 20rem;
+       
+    }
+    #navimg1{
+        margin-left: 13%;
+        height: 18rem;
+        width: 45rem;
+    }
+    .section1{
+        height: 132rem;
+        width: 100rem;
+        overflow: visible;
+
+    }
+    .Sectin1bottomflex{
+        flex-direction: column;
+    }
+    .section1_imgdiv{
+        margin-top: -65%;
+        height: 30rem;
+        width: 30rem;
+        border: 1rem solid #02e4f8;
+        margin-left: 60%;
+    }
+    .section1_img{
+        height: 31rem;
+        width: 31rem;
+    }
+    .sectionbody{
+        padding: 30% 0 0 0;
+        
+    }
+    #flexForH1{
+       margin-left: 15%;
+    }
+    .Sec1p1{
+        margin-left: 26%;
+    }
+    .buttondiv{
+        margin-top: 40%;
+        height: 13rem;
+        width: 30rem;
+        font-size: 3.5rem;
+        font-weight: bold;
+        margin-left: 35%;
+    }
+    .section1_group_img1{
+        margin-left: 7%;
+        margin-top: 1%;
+    }
+    /* section 2 end  */
+    .section2{
+        width: 100rem;
+        height: auto;
+    }
+    .div4_All_flex{
+        flex-direction: column;
+    }
+    .SectionDIv4All_flex{
+        width: 90%;
+        height: 100rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .sec2imgdiv{
+        height: 40rem;
+        width: 40rem;
+    }
+    .sec2imges{
+        height: 41rem;
+        width: 41rem;
+    }
+    .Sec2textDiv{
+        height: 12rem;
+        font-size: 4.5rem;
+    }
+    .sec2Div4BottomTextDiv{
+        font-size: 4rem;
+    }
+    .secDivbottomtext{
+        margin-top: 4rem;
+    }
+    .Sec2button_bottomDiv{
+        height: 12rem;
+        width: 35rem;
+        font-size: 3.5rem;
+    }
+    .commentDivMAin{
+        width: 100rem;
+        height: 56rem;
+    }
+    .CommentdivMainFlex{
+        flex-direction: column;
+        
+    }
+    .ProfileIconDiv{
+        height: 18rem;
+        width: 18rem;
+        border: .3rem solid #1f4a7d;
+        border-radius: 100rem;
+        overflow: hidden;
+        margin-left: 5%;
+        margin-top: 2.5rem;
+    }
+    .ProfileIconImg{
+        height: 18rem;
+        width: 17.5rem;
+        margin: 0rem 0rem 0rem .7rem;
+    }
+    .Commentdiv{
+        width: 80%;
+        font-size: 4rem;
+        line-height: 5rem;
+        margin-top: 5rem;
+    }
+    .nameDiv{
+        margin-top: -42rem;
+        margin-left: 63rem;
+        font-size: 5rem;
+    }
+
+    
+    /*   section 3 start */
+    .Section3{
+        width: 100rem;
+    }
+    .afterContentDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Section3Title{
+        font-size: 6rem;
+    }
+    .Section3flex4Div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Section3all4Div{
+        width: 85%;
+        height: auto;
+        margin-top: 10rem;
+    }
+    .sec3toprightCorner{
+        width: 15rem;
+        height: 15rem;
+        margin-top: -7rem;
+    }
+    .checkRightimg{
+        height: 14rem;
+        width: 14rem;
+    }
+    .sec3iconimgDiv{
+        height: 40rem;
+        width: 40rem;
+        margin-top: -2rem;
+    }
+    .sec2iconImg{
+        height: 25rem;
+        width: 25rem;
+    }
+    .sec3MiddelTitel{
+        height: 12rem;
+        font-size: 4.5rem;
+        margin-top: 8rem;
+    }
+    .sec34flexDivBottomTextDiv{
+        line-height: 8rem;
+        font-size: 4rem;
+        margin-bottom: 5rem;
+    }
+    .SEC3bottomButtonDiv{
+        height: 12rem;
+        width: 40rem;
+        font-size: 3.5rem;
+    }
+
+
+    .Section4{
+        width: 100rem;
+        height: 180rem;
+        background-size: 90% auto;
+        background-position: center;
+    }
+    .sec4Overlay{
+        height: 180rem;
+    }
+    .sec4headDivMain{
+        flex-direction: column;
+    }
+    .sec4headerText2Div{
+        margin-top: 8rem;
+    }
+    .sec4flexDiv3_Flex{
+        flex-direction: column;
+        margin-left: 10%;
+    }
+    .sec4Flexdiv3MainDiv{
+        width: 80%;
+    }
+    .sec4BOTTOM_BUTTON_DIV_FLEX_DIV3_FLEX{
+        flex-direction: column;
+        
+    }
+    .sec4BOTTOM_BUTTON_DIV_MAIN{
+        width: 80%;
+        margin-left: 10.4%;
+        
+    }
+    .sec4BOTTOM_BUTTON_DIV_MAIN1{
+        margin-top: -95rem;
+    }
+    .sec4BOTTOM_BUTTON_DIV_MAIN2{
+        margin-top: 35rem;
+    }
+    .sec4BOTTOM_BUTTON_DIV_MAIN3{
+        margin-top: 35rem;
+    }
+    .section5{
+        flex-direction: column;
+        width: 100rem;
+        margin-top: 8rem;
+        letter-spacing: .1rem;
+    }
+    .sec5FlexDiv{
+        width: 100%;
+       
+    }
+    .sec5FlexDiv{
+        margin-top: 8rem;
+        height: auto;
+    }
+    .sec5FlexDiv1_img{
+        height: 55rem;
+        width: 80rem;
+    }
+    .sec5FlexDiv2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    
+        
+    }
+    .sec5FlexDiv2Text_Center{
+        width: 80%;
+        font-size: 4.5rem;
+    }
+    .sec5FlexDiv2H1_text{
+        font-size: 9rem;
+    }
+    .section6{
+        margin-top: 8rem;
+        width: 100rem;
+    }
+    .iframe1{   
+        width: 70rem;
+        height: 40rem;
+    }
+    .section7{
+        width: 100rem;
+        height: 250rem;
+        background-size: 100% 100%;
+    }
+    .Section7Overlay{
+        height: 250rem;
+        width: 100rem;
+    }
+    .sec7_2divFlex{
+        flex-direction: column;
+    }
+    .sec7_flexdiv_2_2ndtdiv{
+        margin-top: 10rem;
+        height: auto;
+    }
+    .TEXt1{
+        font-size: 4rem;
+    }
+    .sec7_flexDiv_2ndFLexDiv_Text_H1{
+        font-size: 5rem;
+    }
+    .tttt{
+        margin-top: 4rem;
+    }
+    .TrustTextBolder{
+        font-size: 6rem;
+    }
+    .sec7flexDiv_2ndDiv_Button_div{
+        display: flex;
+        justify-content: center;
+    }
+    .sec7flexDiv_2ndDiv_Button{
+        height: 10rem;
+        width: 30rem;
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+    .vvvvvv{
+        width: 80%;
+        margin-top: 5rem;
+    }
+    .vvvvv1{
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+    .vvvvv2{
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+    .vvvvv3{
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+    .sec7_flexDiv_Tex_Content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section8{
+        width: 100rem;
+        margin-top: 15rem;
+    }
+    .sec8button_div{
+        height: 10rem;
+        width: 30rem;
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+    
+    
+
+
+    
+    
+
+}
